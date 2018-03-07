@@ -1,8 +1,5 @@
 # 移动端VUE小栗子
 
-> 设计图以750px为原稿
-> 修改ip    config-index.js文件
-
 
 ### 技术选型
 - vue
