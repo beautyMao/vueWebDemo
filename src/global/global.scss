@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 样式重置 */
+@import "helper/_normalize";
+/* 项目颜色 */
+@import "helper/_color.scss";
+
+/**
+ * 隐藏元素
+ */
+
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+/**
+ * 单行文本超过宽度显示为三个点
+ */
+
+.dot {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/**
+ * 清除浮动
+ **/
+.clearfix::before, .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/**
+ * 主体文字颜色为 333
+ **/
+body {
+    color: $base;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
